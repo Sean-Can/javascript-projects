@@ -2,7 +2,7 @@
  * Created by sean on 03/03/17.
  */
 
-// demonstrates scope blah blah
+// demonstrates scope 
 var x = 'outside';
 
 var f1 = function()

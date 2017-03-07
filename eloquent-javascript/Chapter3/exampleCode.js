@@ -5,12 +5,12 @@
 // demonstrates scope
 var x = 'outside';
 
-var f1 = function()
+/*var f1 = function()
 {
     var x  = 'inside f1';
 };
-
-f1();
+*/
+//f1();
 console.log(x);
 
 var f2 = function()
@@ -31,7 +31,7 @@ var landscape = function()
   };
   var mountain = function(size)
   {
-      result += '/'
+      result += '/';
     for(var count = 0; count < size; count++)
         result += "'";
         result += '\\';

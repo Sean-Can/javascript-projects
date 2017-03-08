@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By using the diff function we are able to pinpoint any differences between
+    2 files. This allows for quick access to information regarding any errors.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having access to the entire history of a file allows for the ability to quickly
+    compare the differences between them. This ability makes it easier to find any
+    errors or to reset back to a working version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of saving manually: keeps the history uncluttered, allows for the creation
+    of meaningful commit messages.
+    Some cons of manually saving: if you forget to save your changes will be lost.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Some VCS, like Git allow saving multiple files in one commit because it
+    allows for tracking files that share relation to each other. Other VCS like google
+    docs save files individually mainly because each file is independent from the others.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    By using the command git log. You can view a list of all the commits made to the repository.
+    by using git diff. you can view any changes made to the files between different commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    The ability to use VCS means that if something does get broken the repo can be
+    reverted to a working state by simply checking out the last commit with working code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Now that I have my workspace set up I would like to use git to keep track of
+    any changes made to my personal projects.

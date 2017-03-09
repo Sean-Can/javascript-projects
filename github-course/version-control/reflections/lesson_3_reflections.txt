@@ -1,0 +1,41 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+It use useful to use a remote repository when doing work from multiple
+machines or working with different contributors. Having a copy online
+allows for every person working on the project to have access to any new
+ additions or changes.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It is better to have to manually pull changes so you can find out if
+ any thing you have been working on would be affected by any changes
+ on the remote repository.
+
+ Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+ Forks are essentially a clone of a repository created on github servers.
+ clones are created when taking a repository and cloning it to a local directory.
+ branches are different sections of the project, you can use them to
+ create new features without changing anything on the master branch.
+
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can work offline, it saves a lot of data overhead when pushing
+changes to github and it gives the possibility to do a quick check
+which changes are made in the online repo compared to the offline
+repository.
+
+How would you collaborate without using Git or GitHub? What would be
+ easier, and what would be harder?
+
+ Without the use of Git or GitHub I would have to send files over
+ email,dropbox or google docs. This option would work but I would
+ lose the ability to compare the history of the files.
+
+ When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+ I would want to make changes in a separate branch almost all the
+ time. this would ensure that the master branch only has code that
+ has been thoroughly tested and verified as working.
+
+ I cant think of any benefit to not doing this as it is safer and allows for more experimentation.

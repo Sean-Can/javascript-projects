@@ -1,0 +1,46 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository a hidden directory .git is created which contains the required files for the version history. This is important, without first running this
+command git doesn't know to track it.
+
+How is the staging area different from the working directory and the repository?
+
+The staging area is where files a prepared to be used in a commit. The value in this allows for grouping of related items into a single commit.
+ It is not required to contain all files.
+
+What value do you think it offers?
+The option to create your set of files which you want to commit without having to add all new files. This way
+    you have the option to make a split based on logical functionality
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+I can use the staging area to group together files that have a logical
+change and have anything unrelated left out.
+
+What are some situations when branches would be helpful in keeping your history
+organized?
+
+ It would be helpful while working on conflicting changes, trying out new feature, etc.This lets you  change everything with multiple commits into the "feature branch" and then do a large merge to the "main branch".
+                                                                         This will keep the history clean, but you can still use version control during development.
+
+ How would branches help?
+It creates a safe place to test new features out.
+
+How do the diagrams help you visualize the branch structure?
+ Diagrams allow you to directly see the relation between commits and branches. This aids in the ability to find where specific changes were made.
+
+What is the result of merging two branches together?
+
+The result is one branch with changes from both in it.
+
+Why do we represent it in
+the diagram the way we do?
+
+It is represented this way because all commits from both branches will
+be shown based on timestamp in the git log.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Automatic merges saves a lot of time. It does not have the ability to merge in some cases prompting the user to clarify the change manually.

@@ -1,0 +1,21 @@
+Goals:
+1.ZONE:  set what you are coding for the day - ie: choose a project say from the algorithm book
+
+2. make sure you have your dev environment setup : github, webstorm,
+
+3. bring your work to date - it should all be in github from code to documentation and lets have ellis take a quick peak and give comments
+
+4. see how we work
+- stay focused, stay in your zone
+- there is something to learn form everybody - both good and bad!
+- your enemy: hesitation, distraction, multitasking, focus (not being patient when you get stuck).
+
+5. after a few days you will come away with the tools of DevOps  (not as a master but as something to master)
+- first is the basics of what you are doing now :Javascript and Python development
+- OpenAPI (swagger tools)  (how small application services talk to each other across the cloud)
+- Linux, Docker, Kubernetes
+- google analytics
+- products like RightScale (that support heterogeneous cloud environments)
+- tools like Puppet (might be too big)
+** do not get distracted this is stuff you read when you are not in your zone
+

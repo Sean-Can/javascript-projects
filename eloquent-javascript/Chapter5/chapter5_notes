@@ -1,0 +1,31 @@
+Higher-Order Functions
+
+Abstraction
+
+In the context of programming, these kinds of vocabularies are usually called abstractions. Abstractions hide details and give us the ability to talk about problems at a higher (or more abstract) level.
+
+Functions that operate on other functions either by taking them in as arguments or by returning them.
+Are called higher order functions.
+
+Higher order functions allow us to abstract over actions, not just values. They come in several forms.
+ie. You can have functions that create new functions, functions can change other functions and you can
+even write functions that provide new types of control flow.
+
+JSON is similar to Javascripts way of writing arrays and objects with a few restrictions. All property
+names have to be surrounded by double quotes, and only simple data expressions are allowed -- no function
+calls, variables, or anything that involves actual computation. Comments are not allowed in JSON
+
+Transforming with map
+
+The map method transforms an array by applying a function to all of its elements and building a new
+array from the returned values. The new array will have the same length as the input array, but its
+content will be "mapped" to a new form by the function.
+
+Like forEach and filter, map is also a standard method on arrays.
+
+Summarizing with Reduce.
+
+Another common pattern of computation on arrays is computing a single value from them. One example is
+the summing of a collection of numbers.
+
+The parameters to the reduce function apart from the array are  a combining function and a start value.

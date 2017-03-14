@@ -1,0 +1,17 @@
+
+
+
+Exercises
+
+7.1 In the following Graphs what is the weight of the shortest path from start to finish
+
+A. The path is 5 - 2 - 1 For a total weight of 8
+B. The path is 10 - 20 - 30. For a total of 60.
+C. NO shortest path is possible as a negative weight edge is present.
+
+Summary:
+
+Breadth-first-search is used to calculate the shortest path of an unweighted graph
+Dijktra's Algorithm is used to calculate the shortest path for a weighted graph
+Dijktra's algorithm works when all the weights are positive
+If you have any negative weights, use the Bellman ford Algorithm
